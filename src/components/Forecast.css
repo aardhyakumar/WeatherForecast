@@ -1,0 +1,37 @@
+.main{
+    width: 85px;
+    height: 220px;
+    color: white;
+    background-color:transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    z-index: 0;
+    transform: translate(Z(40px));
+}
+.main > img{
+    margin: 0;
+}
+.main-container{
+    padding: 10px 5px;
+    text-align:center;
+}
+.main-info{
+    margin-top: 8px;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-around;
+    z-index: 2;
+}
+.main-info > h5{
+    font-size: small;
+}
+.main-time > h5{
+    font-size: smaller;
+}
+.main-temp> h5{
+    font-size: 12px;
+    line-height: 24px;
+}
+.main-temp{
+    margin-top: 10px;
+}
